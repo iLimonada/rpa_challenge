@@ -18,7 +18,7 @@ class RPAController:
                 return 0
 
             driver = webdriver.Chrome()
-            driver.maximize_window()  # Corrigir a chamada do método
+            driver.maximize_window()
             driver.get(settings.URL_RPA_CHALLENGE)
 
             try:
